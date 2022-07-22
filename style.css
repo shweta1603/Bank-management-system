@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://sgilliamlaw.com/wp-content/uploads/2018/11/tesmionial_16_back.png");
+  
+    /* background-color: #3280c3; */
+    height: 623px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+   }
+#myTable{
+    background-color: white;
+    height: 200px;
+    width: 800px;
+    opacity: 0.9;
+}
+.bank-balance-display{
+    /* to make the table in center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    text-align: center;
+}
+.bank-balance-display table{
+    border: 2px solid black;
+}
+table, tr, th, td{
+   border: 2px solid black;
+   border-collapse: collapse ;
+}
+
+td th{
+    padding: 10px;
+}
+td input{
+    width: 70%;
+    padding: 10px 25px;
+}
+.bank-balance-display button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkslategray;
+    color: azure;
+    box-shadow: 4px 4px lightslategrey;
+}
+.name{
+    background-color: darkgray;
+    font-weight: bold;
+}
